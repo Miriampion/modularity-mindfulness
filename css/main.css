@@ -46,3 +46,25 @@ i {
     text-align: right;
   }
 }
+
+a {
+  text-decoration: none;
+  color: #005e76
+}
+
+a:hover {
+  background-color: #8bc9d9;
+}
+
+.btn {
+  border: 2px solid #8bc9d9;
+  border-radius: 2px;
+  padding: 0.3em 0.75em;
+}
+
+
+
+
+.intro {
+  text-align: center;
+}
