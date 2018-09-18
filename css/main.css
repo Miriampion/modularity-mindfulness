@@ -6,7 +6,7 @@
 
 html {
   font: normal 100%/1.3;
-  font-family: "Noto Sans Japanese", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   box-sizing: border-box;
 
   -moz-text-size-adjust: 100%;
@@ -18,6 +18,10 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+#nav,
+h1  {
+  text-align: center;
+}
 
 span,
 i {
@@ -27,4 +31,18 @@ i {
 .img-flex {
   display: block;
   width:100%;
+}
+
+i {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
+@media only screen and (min-width: 38em) {
+  h1 {
+    text-align: left;
+  }
+
+  #nav {
+    text-align: right;
+  }
 }
