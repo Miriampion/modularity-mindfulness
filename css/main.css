@@ -15,10 +15,16 @@ i {
 }
 
 .wrapper {
-  max-width: 70;
+  max-width: 60%;
+}
+
+article {
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
 }
 
 @media only screen and (min-width: 38em) {
+
   h1 {
     text-align: left;
   }
@@ -26,7 +32,6 @@ i {
   #nav {
     text-align: right;
   }
-}
 
 a {
   text-decoration: none;
@@ -44,9 +49,12 @@ a:hover {
   padding: 0.3em 0.75em;
 }
 
-
-
-
 .intro {
   text-align: center;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
 }
