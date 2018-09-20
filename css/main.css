@@ -10,14 +10,12 @@ i {
   display: block;
 }
 
-.img-flex {
-  display: block;
-  width:100%;
-}
-
 i {
   font-family: "Noto Sans Japanese", sans-serif;
+}
 
+.wrapper {
+  max-width: 70;
 }
 
 @media only screen and (min-width: 38em) {
