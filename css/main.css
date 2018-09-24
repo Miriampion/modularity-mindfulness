@@ -5,6 +5,11 @@ html {
   color: #000;
 }
 
+.foot-space {
+  border-top: 1em;
+}
+.btn-ghost {
+}
 span,
 i {
   display: block;
@@ -32,12 +37,13 @@ a:hover {
   border: 2px solid #8bc9d9;
   border-radius: 2px;
   padding: 0.3em 0.75em;
+  color: #0084a6;
 }
 
 @media only screen and (min-width: 38em) {
-.symbol-img {
-  margin-top: 1.75em;
-}
+  .symbol-img {
+    margin-top: 1.75em;
+  }
 
 }
 
@@ -46,13 +52,13 @@ a:hover {
   .symbol-img {
     margin-top: 0;
   }
-    h1 {
-      text-align: left;
-    }
+  h1 {
+    text-align: left;
+  }
 
-    #nav {
-      text-align: right;
-    }
+  #nav {
+    text-align: right;
+  }
 
   .intro {
     text-align: center;
