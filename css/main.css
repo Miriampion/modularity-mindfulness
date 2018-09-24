@@ -22,17 +22,6 @@ article {
   border-top: 2px solid #e2e2e2;
   border-bottom: 2px solid #e2e2e2;
 }
-
-@media only screen and (min-width: 38em) {
-
-  h1 {
-    text-align: left;
-  }
-
-  #nav {
-    text-align: right;
-  }
-
 a {
   text-decoration: none;
   color: #005e76;
@@ -48,6 +37,16 @@ a:hover {
   border-radius: 2px;
   padding: 0.3em 0.75em;
 }
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    text-align: left;
+  }
+
+  #nav {
+    text-align: right;
+  }
 
 .intro {
   text-align: center;
